@@ -1,0 +1,22 @@
+{
+  "name": "bucket_list",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "mocha client/src/models/specs",
+    "webpack": "cd client && webpack -w"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.3",
+    "mongodb": "^2.2.27"
+  },
+  "devDependencies": {
+    "body-parser": "^1.17.2",
+    "mocha": "^3.4.1",
+    "webpack": "^2.6.0"
+  }
+}
